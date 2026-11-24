@@ -19,4 +19,4 @@ if (size > 1048576) {
 }
 mkdirSync(outDir, { recursive: true });
 copyFileSync(src, join(outDir, "entry.png"));
-console.error(`wrote entry.png (${size} bytes) to ${outDir}`);
+console.error(`wrote entry.png (${size} bytes, 1024x1024) to ${outDir}`);
